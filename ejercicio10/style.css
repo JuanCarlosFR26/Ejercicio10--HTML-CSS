@@ -1,0 +1,31 @@
+.caja {
+    width: 1000px;
+    background-color: red;
+    height: 200px;
+    display: flex;
+}
+
+img {
+    display: none;
+}
+
+video {
+    width: 1024px;
+}
+
+@media (max-width: 700px) {
+    .caja {
+        background-color: green;
+        width: 500px;
+    }
+
+    video {
+        display: none;
+    }
+
+    img {
+        display: block;
+        width: 400px;
+        height: 380px;
+    }
+}
